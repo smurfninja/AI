@@ -1,0 +1,8 @@
+#include "grid.h"
+
+grid::grid(){
+   for (int i = 0; i < NINE; i++){
+      row[i] = 0;
+      col[i] = 0;
+   }   
+}

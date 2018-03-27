@@ -1,0 +1,9 @@
+#include "controller.h"
+
+Controller::Controller(){
+   _model = new Grid();
+}
+
+Controller::Controller(Grid * input){
+   _model = input;
+}

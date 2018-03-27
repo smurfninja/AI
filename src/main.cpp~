@@ -1,0 +1,6 @@
+#include "grid.h"
+
+int main(){
+   grid g();
+   return 0;
+}

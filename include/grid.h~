@@ -1,0 +1,12 @@
+#ifndef
+
+class grid(){
+  public:
+   grid();
+  private:
+   int NINE = 9;
+   int[NINE] row;
+   int[NINE] col;
+}
+
+#endif

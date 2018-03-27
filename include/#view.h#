@@ -1,0 +1,13 @@
+#ifndef VIEW_H
+#define VIEW_H
+
+#include "grid.h"
+
+class grid_view{
+  public:
+   void print_grid(Grid*);
+  private:
+   
+};
+
+#endif

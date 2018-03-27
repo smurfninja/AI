@@ -1,0 +1,11 @@
+#ifndef TESTGRID_CPP
+#define TESTGRID_CPP
+
+#include "../src/grid.cpp"
+#include "gtest/gtest.h"
+
+TEST(GridTest, GridDefaultContrustor){
+   Grid g();
+   EXPECT_EQ(g.getValue(0,0), 0);
+}
+#endif

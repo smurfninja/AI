@@ -1,0 +1,11 @@
+#include "view.h"
+#include <stdio.h>
+
+void grid_view::print_grid(Grid * answer){
+   for(int i = 0; i < MAX_SIZE; i++){
+      for (int j = 0; j < MAX_SIZE; j++){
+	 printf(" %i ", answer->getValue(i,j));
+      }
+      printf("\n")
+   }
+}
